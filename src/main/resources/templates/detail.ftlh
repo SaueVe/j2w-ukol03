@@ -21,7 +21,7 @@
                 <div><span>${vizitka.obecPsc}</span></div>
             </div>
             <div class="kontakty">
-                <div><i class="las la-at"></i> <span>[#if vizitka.email??]${vizitka.email}[#else]<em>E-mail neuveden.</em>[/#if]</span></div>
+                <div><i class="las la-at"></i><span>[#if vizitka.email??]${vizitka.email}[#else]<em>E-mail neuveden.</em>[/#if]</span></div>
                 <div><i class="las la-phone-alt"></i> <span>[#if vizitka.telefon??]${vizitka.telefon}[#else]<em>Telefon neuveden.</em>[/#if]</span></div>
                 <div><i class="las la-globe"></i> <span>[#if vizitka.web??]${vizitka.web}[#else]<em>Web neuveden.</em>[/#if]</span></div>
             </div>
