@@ -13,7 +13,7 @@ import java.util.List;
  */
 @Controller
 public class VizitkaController {
-    private final List<Vizitka> seznamVizitek=List.of(
+    private final List<Vizitka> seznamVizitek = List.of(
             new Vizitka("Dita (Přikrylová) Formánková", "Czechitas z. s.", "Podlipného 810/14", "Praha 8-Libeň, 180 00","dita@czechitas.cs","+420 800 123 456", "www.czechitas.cz"),
             new Vizitka("Barbora Bühnová", "Czechitas z. s.", "Sokolovská 139/320", "Praha 9, 190 00",null,"+420 294 367 948", "www.czechitas.cz"),
             new Vizitka("Monika Ptáčníková", "Czechitas z. s.", "Botanická 828/45", "Brno-střed-Veveří, 602 00","monika@czechitas.cs","+420 763 947", "www.czechitas.cz"),
